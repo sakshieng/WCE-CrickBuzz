@@ -1,0 +1,18 @@
+https://cricketdata.org/widgets-for-your-website-blog/
+
+Team details
+Name
+Coach Name
+Manager name
+Team A details
+11 players name
+Toss details
+Bat 
+Overs
+select match and admin
+match
+admin
+for invalid game give a suggestion invalid game
+
+score update
+Home Direct match           username to be displayed<--log out

@@ -1,0 +1,115 @@
+body{
+    background-color: #969494;
+    width: 100vw;
+}
+.menu{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 800rem;
+    margin-left: 52rem;
+    /* border: 2px solid beige; */
+}
+ .nav ul{
+    display: flex;
+}
+ .nav ul li a{
+    color: #b8b8b8;
+    /* border: 2px solid beige; */
+    margin: 10px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #111;
+    font-weight: 700;
+}
+.content{
+    border: 2px solid black;
+    width: 500px;
+    margin-top: 50px;
+    margin-left:250px;
+    height: 250px;
+    /* margin: 10px; */
+}
+.data{
+    background-color: rgb(220, 219, 219);
+    width: 324px;
+    height: 600px;
+    border: 2px solid black;
+}
+.data h2{
+    font-weight: 400;
+    margin: auto;
+}
+ .content .onGoing{
+    display: flex;
+}
+.btn{
+    border-radius: 16px;
+    padding: 10px;
+    width: 70px;
+    font-size: 13px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(50, 245, 50);  
+}
+.content .onGoing .Teams{
+    margin: 15px;
+}
+.data .searchBox{
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 12px;
+    width: 18rem;
+    height: 18rem;
+    text-align: center;
+}
+
+.data .bottomBox{
+    border: 2px solid black;
+    margin-top: 10rem;
+    width: 18rem;
+    height: 10rem;
+}
+.data .searchBox input{
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 4px 4px;
+    margin-left: 3rem;
+    width: 12rem;
+    height: 1.5rem;
+    /* filter: blur(1px); */
+}
+
+.data .box{
+    border: 2px solid black;
+    width: 12rem;
+    height: 4rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    /* background-color:palevioletred;  */
+}
+.data .searchBox .cricketTypes{
+    display: flex;
+    width: 12rem;
+    margin-left: 3rem;
+    /* border: 2px solid b  lack; */
+}
+.data .searchBox .type{
+    border: 3px solid gray;
+    width: 100px;
+    height: 3rem;
+    margin-top: 14px;
+    margin-left: 14px;
+    /* margin: 1rem; */   
+}
