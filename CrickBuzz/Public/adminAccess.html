@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <title>admin access</title>
+</head>
+<body>
+    <div class="content" id="content">
+    NO LIVE MATCH GOING RIGHT NOW
+    </div>
+    <button class="btn" id="btn">
+        Start a live match
+    </button>  
+    <form onchange="collect()" class="form" id="form">
+        <input type="text" placeholder="Team-1" class="input" id="team1">
+        <input type="text" placeholder="Team-2" class="input" id="team2">
+        <button id="submit">submit</button>
+    </form>
+    <script src="./admin.js"></script>
+</body>
+</html>
